@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo tact Daily-logs</title>
-    <link>https://example.com/</link>
+    <link>https://ishitag-2002igk.github.io/daily-logs-hugo/</link>
     <description>Recent content on Hugo tact Daily-logs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 Jun 2021 14:10:41 +0530</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ishitag-2002igk.github.io/daily-logs-hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Daily logs</title>
-      <link>https://example.com/posts/daily-logs/</link>
+      <link>https://ishitag-2002igk.github.io/daily-logs-hugo/posts/daily-logs/</link>
       <pubDate>Mon, 14 Jun 2021 14:10:41 +0530</pubDate>
       
-      <guid>https://example.com/posts/daily-logs/</guid>
+      <guid>https://ishitag-2002igk.github.io/daily-logs-hugo/posts/daily-logs/</guid>
       <description>8/5/21 API route for submit,find and file @app.route(&amp;quot;/submit&amp;rdquo;, methods=[&amp;ldquo;GET&amp;rdquo;,&amp;ldquo;POST&amp;rdquo;]) def submit(): name = request.form.get(&amp;ldquo;feature-title&amp;rdquo;) desc = request.form.get(&amp;ldquo;short_summary&amp;rdquo;)
 col.insert_one({ &amp;quot;Name&amp;quot;: name , &amp;quot;description&amp;quot;: desc }) for x in col.find(): val=x[&#39;Name&#39;] val2=x[&#39;description&#39;] result = { &#39;Name&#39; : val , &#39;description&#39; : val2 } # {{ org.backgroundInfo | replace(‘\n’, ‘&amp;lt;br&amp;gt;’) }} # return json.dumps(result) return render_template(&#39;result.html&#39;, result = result) @app.route(&amp;quot;/file&amp;quot;, methods=[&amp;quot;GET&amp;quot;]) def file(): response=[] for main in col.find(): value = main[&amp;lsquo;Name&amp;rsquo;] value2 = main[&amp;lsquo;description&amp;rsquo;]</description>
     </item>
     
     <item>
       <title>Daily logs-2</title>
-      <link>https://example.com/posts/daily-logs2/</link>
+      <link>https://ishitag-2002igk.github.io/daily-logs-hugo/posts/daily-logs2/</link>
       <pubDate>Mon, 14 Jun 2021 14:10:41 +0530</pubDate>
       
-      <guid>https://example.com/posts/daily-logs2/</guid>
+      <guid>https://ishitag-2002igk.github.io/daily-logs-hugo/posts/daily-logs2/</guid>
       <description>8/5/21 API route for submit,find and file @app.route(&amp;quot;/submit&amp;rdquo;, methods=[&amp;ldquo;GET&amp;rdquo;,&amp;ldquo;POST&amp;rdquo;]) def submit(): name = request.form.get(&amp;ldquo;feature-title&amp;rdquo;) desc = request.form.get(&amp;ldquo;short_summary&amp;rdquo;)
 col.insert_one({ &amp;quot;Name&amp;quot;: name , &amp;quot;description&amp;quot;: desc }) for x in col.find(): val=x[&#39;Name&#39;] val2=x[&#39;description&#39;] result = { &#39;Name&#39; : val , &#39;description&#39; : val2 } # {{ org.backgroundInfo | replace(‘\n’, ‘&amp;lt;br&amp;gt;’) }} # return json.dumps(result) return render_template(&#39;result.html&#39;, result = result) @app.route(&amp;quot;/file&amp;quot;, methods=[&amp;quot;GET&amp;quot;]) def file(): response=[] for main in col.find(): value = main[&amp;lsquo;Name&amp;rsquo;] value2 = main[&amp;lsquo;description&amp;rsquo;]</description>
     </item>
